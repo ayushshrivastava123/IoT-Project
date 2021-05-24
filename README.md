@@ -26,3 +26,13 @@ Implement the temperature sensor physically on the Raspberry Pi and test the wor
 YUCHAO YAN
 
 Document major steps and create detailed notes for the entire implementation process, assist in feature testing, make sure that the required software and components are available to finish the implementation.
+
+# Code Description
+ReadingDynamoDB is a JSON file applied in Lambda functions to read all the uploading data into webpage.
+Trigger LambdaFunction is a python file applied in Lambda function to send message back to the AWS IOT. For more information can [Click Here](https://github.com/lkk688/AWSIoTFreeRTOS)
+Temp and voice are two python file which can uploade data from rapsibeery pi to AWS IoT via MQTT
+
+# Reference 
+[Fully Report & Video ](https://drive.google.com/drive/folders/1SZljK6pfw9hfcLkIZJlfl3nLSE7KVFn8?usp=sharing)   SJSU Account Access only.
+[Music Beats](https://www.easyprogramming.net/raspberrypi/audio_reactive_led.php)
+[AWS IoT Doc](https://docs.aws.amazon.com/iot/latest/developerguide/sdk-tutorials.html)
