@@ -29,7 +29,9 @@ Document major steps and create detailed notes for the entire implementation pro
 
 # Code Description
 ReadingDynamoDB is a JSON file applied in Lambda functions to read all the uploading data into webpage.
+
 Trigger LambdaFunction is a python file applied in Lambda function to send message back to the AWS IOT. For more information can [Click Here](https://github.com/lkk688/AWSIoTFreeRTOS)
+
 Temp and voice are two python file which can uploade data from rapsibeery pi to AWS IoT via MQTT
 
 # Reference 
